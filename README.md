@@ -9,8 +9,8 @@
 Simple Github project splash website using html5, SCSS and jquery. Good to learn basic of web development. 
 
 Based on 
-[html5_CSS_JS_JQuery](https://github.com/yogeshswdev/html5_CSS_JavaScript_JQuery_start)
-[Spatie scss](https://github.com/spatie/scss)
+- [html5_CSS_JS_JQuery](https://github.com/yogeshswdev/html5_CSS_JavaScript_JQuery_start)
+- [Spatie scss](https://github.com/spatie/scss)
 
 
 ### index.html
