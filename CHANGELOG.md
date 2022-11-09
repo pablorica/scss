@@ -2,6 +2,11 @@
 
 All Notable changes to `scss boilerplate` will be documented in this file
 
+
+## 1.5.0
+- Mixed with [html5_CSS_JS_JQuery](https://github.com/yogeshswdev/html5_CSS_JavaScript_JQuery_start)
+- `index.html` added
+
 ## 1.4.0
 - Default hr
 - `brand-color` function

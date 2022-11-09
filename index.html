@@ -1,49 +1,55 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Github hub</title>
-    <link rel="stylesheet" href="./public/css/site.css" />
+        <title>Sass boilerplate</title>
+    <link rel="stylesheet" href="./public/css/style.css" />
     </head>
     <body>
+
         <div class="container">
-            <header>
-                <nav>
-                        <ul>
-                                <li> <a href="./index_div.html">Home</a></li>
-                                <li> <a href="./index_div.html">Contact</a></li>
-                                <li> <a href="./index_div.html">About</a></li>
-                        </ul>
-                </nav>
-                <div><img src="./public/img/logo.png" width="300" height="100"></div>
-                <div>Github H1 website ti search projects</div> 
-            
+
+
+            <header role="banner"> 
+                <div class="banner-container"> 
+                    <div class="banner-container__brand"> 
+                        <a href="/"><img alt="Sass" src="./public/img/logo.png" height="48"> </a>
+                        <h1>Sass boilerplate</h1> 
+                    </div> 
+                    <nav aria-label="Site navigation" class="sl-r-banner__navigation sl-l-grid__column sl-l-large-grid sl-l-large-grid__column--auto-size sl-c-list-horizontal-wrapper" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" role="navigation"> 
+                        <ul> 
+                            <li><a href="https://sass-lang.com//install" target="_blank">Install</a></li> 
+                            <li><a href="https://sass-lang.com//guide" target="_blank">Learn Sass</a></li> 
+                            <li><a href="https://sass-lang.com//blog" target="_blank">Blog</a></li> 
+                            <li><a href="https://sass-lang.com//documentation" target="_blank">Documentation</a></li> 
+                            <li><a href="https://sass-lang.com//community" target="_blank">Get Involved</a></li> 
+                        </ul> 
+                    </nav> 
+                </div> 
             </header>
+
+
             <section id = "main">
-                <p> Welcome to paragraph<a href="http://github.com">Github.com</a>. <em>dfkdbkd djfkdbfkd</em> jbkdbkdbkdckdckdbckdbck jdbdbckdbc kdbckdbck
-                </p>
-                <p>
-                    Welcome to paragraph2. <strong>jkdlnldnld</strong> . dfkdbkd djfkdbfkd jbkdbkdbkdckdckdbckdbck jdbdbckdbc kdbckdbck
-                </p>
-                <form action="http://wilder.azurewebsites.net/echo" method="POST" class="bordered-image simple-form" id="githubSearchForm">
-                    <label for="SearchPhrase">Search Phrase </label>
-                    <input name="SearchPhrase" id="SearchPhrase"/><br>
-                    <input type="checkbox" name= "useStars" id="useStars" checked="true" /><label for="useStars">Use Star ?</label><br>
-                    <label for="langChoice">Lang Choice</label>
-                    <select name="langChoice" id="langChoice">
-                        <option>All</option>
-                        <option>Java</option>
-                        <option selected>C#</option>
-                        <option>C++</option>
-                    </select>
-                    <input type="submit" id ="search" value="search"/>
-                </form>
-                <div id="results" class="bordered-image">
-                    <button id="toggleButton">Hide</button>
-                <div id = "resultList">This is where results will live....</div>
-                </div>
+                
+                <ul class="sl-l-grid"> 
+                    <li class="sl-l-grid__column"> 
+                        <h2><span class="caps">CSS</span>&nbsp;Compatible</h2> 
+                        <p>Sass is completely compatible with all versions of <span class="caps">CSS.</span> We take&nbsp;this compatibility seriously, so that you can seamlessly use any&nbsp;available <span class="caps">CSS</span>&nbsp;libraries.</p> 
+                    </li> 
+                    <li class="sl-l-grid__column"> 
+                        <h2><span class="caps">CSS</span>&nbsp;Compatible</h2> 
+                        <p>Sass is completely compatible with all versions of <span class="caps">CSS.</span> We take&nbsp;this compatibility seriously, so that you can seamlessly use any&nbsp;available <span class="caps">CSS</span>&nbsp;libraries.</p> 
+                    </li> 
+                    <li class="sl-l-grid__column"> 
+                        <h2><span class="caps">CSS</span>&nbsp;Compatible</h2> 
+                        <p>Sass is completely compatible with all versions of <span class="caps">CSS.</span> We take&nbsp;this compatibility seriously, so that you can seamlessly use any&nbsp;available <span class="caps">CSS</span>&nbsp;libraries.</p> 
+                    </li> 
+                </ul> 
+                
             </section>
+
+
             <footer>
-                &copy; 2018 Yogesh Khot LLC &gt; &lt; &#937;
+                &copy; 2022 Pablo Rica
             </footer>
       </div>
     </body>
