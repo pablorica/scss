@@ -1,0 +1,11 @@
+node_modules
+npm-debug.log
+yarn.lock
+build/
+
+
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+.Trashes
+.DS_Store
