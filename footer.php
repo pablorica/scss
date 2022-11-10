@@ -28,5 +28,6 @@
             </footer>
         </div>
     </body>
-    <script type="text/javascript" src="<?=BASE_URL?>public/js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="<?=BASE_URL?>public/js/main.js?v=<?=VERSION?>"></script>
 </html>

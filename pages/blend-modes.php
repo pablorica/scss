@@ -5,13 +5,12 @@
  * @package @pablorica/scss
  */
 
-include('../header.php');
 ?>
 
 
     <section id = "main" class="blend-modes">
         
-        <h2>Reverse Text Color Based on Background Color Automatically in CSS </h2> 
+        <h2>Change Text or Fill Color Based on Background Color Automatically in CSS</h2> 
         <p>Blend modes are commonly used in design tools such as Photoshop to create a compositional effect by mixing colors from two or more layers. By changing how colors mix, you can achieve really interesting visual effects.</p>
         <p>Mix blend options:</p>
 <pre><code>
@@ -112,6 +111,3 @@ rgb(0,255,255);
         </div>
         
     </section>
-
-
-<?php include('../footer.php'); ?>

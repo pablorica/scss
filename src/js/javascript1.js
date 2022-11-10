@@ -1,5 +1,6 @@
 
-var msg = "Hello javascript";
+
+/*var msg = "Hello javascript";
 console.log(msg);
 
 var resultsDiv = document.getElementById("results");
@@ -33,3 +34,4 @@ function showItThen(msg, callback){
 showItThen("showit then", function (msg){
     console.log("callback called");
 });
+*/

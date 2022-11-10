@@ -5,15 +5,19 @@
  * @package @pablorica/scss
  */
 
- define('BASE_URL','http://localhost/tutorials/scss/')
-
 ?>
 
 <!DOCTYPE html>
 <html>
     <head>
         <title>Sass boilerplate</title>
-    <link rel="stylesheet" href="<?=BASE_URL?>/public/css/style.css" />
+        <link rel="stylesheet" href="<?=BASE_URL?>/public/css/style.css?v=<?=VERSION?>" />
+
+        <link rel="apple-touch-icon" sizes="180x180" href="<?=BASE_URL?>/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="<?=BASE_URL?>/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="<?=BASE_URL?>/favicon-16x16.png">
+        <link rel="manifest" href="<?=BASE_URL?>/site.webmanifest">
+
     </head>
     <body>
 
