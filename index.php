@@ -8,14 +8,14 @@
  * @license GPL-2.0-or-later 
  * 
  * Description: SCSS boilerplate with common functions, mixins, helpers and patterns
- * Version: 1.5.1
+ * Version: 1.5.1.1
  * Author: Pablo Rica
  * Author URI: http://codigo.co.uk/pablo-rica
  * License: GPLv2 or later 
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt 
 */
 
-define('VERSION','1.5.1');
+define('VERSION','1.5.1.1');
 define('BASE_URL','http://localhost/tutorials/scss/');
 
 include('header.php');

@@ -30,7 +30,17 @@
                         <a href="<?=BASE_URL?>"><img alt="Sass" src="<?=BASE_URL?>/public/img/logo.png" height="48"> </a>
                     </div> 
                     <h1 class="banner-container__title"><a href="<?=BASE_URL?>">Sass Boilerplate</a></h1> 
-                    <div class="banner-container__menu"></div> 
+                        <nav 
+                            aria-label="Site navigation" 
+                            class="banner-container__menu" 
+                            itemscope="itemscope" 
+                            itemtype="http://schema.org/SiteNavigationElement" 
+                            role="navigation"
+                        > 
+                            <ul> 
+                                <li><a href="http://localhost/tutorials/laravel-vue-crud/public/posts" target="_blank">Programming manual</a></li> 
+                            </ul> 
+                        </nav>
                 </div> 
             </header>
 

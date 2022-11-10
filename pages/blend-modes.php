@@ -108,6 +108,8 @@ rgb(0,255,255);
             <p><a href="https://stackoverflow.com/questions/67544643/css-mix-blend-mode-only-white-or-black" target="_blank">CSS mix blend mode / only white or black</a></p>
             <p><a href="https://dev.to/kaos/dynamic-text-effects-with-css-mix-blend-mode-242a" target="_blank">Dynamic text effects with css mix-blend-mode</a></p>
             <p><a href="https://pinetools.com/invert-color" target="_blank">Invert colours online</a></p>
+            <hr>
+            <p><a href="https://stackoverflow.com/questions/54621367/how-to-get-mix-blend-mode-scroll-effect-using-javascript" target="_blank">How to get a similar mix-blend-mode scroll effect</a></p>
         </div>
         
     </section>

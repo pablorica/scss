@@ -62,11 +62,23 @@ npm-debug.log
 yarn.lock 
 package-lock.json
 
+
+
+
 # -------------------------
 # BEGIN Whitelisted Files
 # -------------------------
 
-# track these files, if they exist
+# ignore everything in the root 
+/*
+
+# track these files and folders
+!*.php
+!pages/
+!src/
+!public/img
+
+# track these configuration files, if they exist
 !.gitignore
 !.editorconfig
 !.phpcs.xml.dist
