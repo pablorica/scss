@@ -1,12 +1,8 @@
 {
     "name": "@pablorica/scss",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "description": "SCSS boilerplate with common functions, mixins, helpers and patterns",
     "main": "settings.scss",
-    "scriptsb": {
-        "build": "webpack",
-        "prepublish": "npm run build"
-    },
     "scripts": {
         "test": "cleancss -o public/css/style.min.css public/css/style.css",
         "css": "npm-run-all css-compile css-postcss css-minify",
