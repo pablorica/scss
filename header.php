@@ -11,7 +11,7 @@
 <html>
     <head>
         <title>Sass boilerplate</title>
-        <link rel="stylesheet" href="<?=BASE_URL?>/public/css/style.css?v=<?=VERSION?>" />
+        <link rel="stylesheet" href="<?=STYLESHEET?>" />
 
         <link rel="apple-touch-icon" sizes="180x180" href="<?=BASE_URL?>/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="<?=BASE_URL?>/favicon-32x32.png">

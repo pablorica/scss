@@ -17,6 +17,9 @@
 
 define('VERSION','1.5.1.1');
 define('BASE_URL','http://localhost/tutorials/scss/');
+define('STYLESHEET',BASE_URL.'public/css/style.css?v='.VERSION);
+define('JSSCRIPT',BASE_URL.'public/js/main.js?v='.VERSION);
+
 
 include('header.php');
 
