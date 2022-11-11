@@ -89,13 +89,18 @@ rgb(0,255,255);
             <iframe src="<?=BASE_URL?>/pages/iframe-blend-modes-3.html" width="100%" height="100%"></iframe>
         </div>
         <p><a href="<?=BASE_URL?>/pages/iframe-blend-modes-3.html" target="_blank">Open example in a new page</a></p>
-        <p>&nbsp;</p>
-        <p>The trick here is the <code>backgroud-fixed</code> property on the layers beneath the block. The idea is each layer has its own "logo" fixed exactly in the same position as the website main logo</p>
-<pre><code>.is-color {
+        <p>The trick here is the <code>backgroud-fixed</code> property on the layers beneath the block. The idea is each layer has its own "logo", filled with the opposite colour as the background (white <-> yellow) and fixed exactly in the same position as the website main logo</p>
+<pre><code>.yellow-block {
     display: block;
     height: 300px;
     width: 100%;
-    background: url('data:image/svg+xml;,logo') 10px 10px/125px 125px fixed no-repeat, #FFC200;
+    background: url('data:image/svg+xml,logo-white') 10px 10px/125px 125px fixed no-repeat, #FFC200;
+}
+.white-block {
+    display: block;
+    height: 300px;
+    width: 100%;
+    background: url('data:image/svg+xml,logo-yellow') 10px 10px/125px 125px fixed no-repeat, #FFFFFF;
 }
 </code></pre>
 
