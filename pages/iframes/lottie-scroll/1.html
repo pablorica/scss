@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Lottie animation with parallax effect on page scroll</title>
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+ </head>
+    
+<body translate="no">
+        <div class="entry-content">
+           <div class="content-lottie" 
+               style="background-color:transparent; height:1px; position:sticky; top:0" >
+               <lottie-player
+                   id="firstLottie"
+                   src="https://assets2.lottiefiles.com/packages/lf20_i9mxcD.json"
+                   style="width:100%; height: auto;"
+                   class=""
+               >
+               </lottie-player>
+           </div>
+   
+           <div style="height:200vh; background-color:transparent" id="lottieGuide"></div>
+       
+       
+           <script>
+               LottieInteractivity.create({
+                   mode: 'scroll',
+                   player: '#firstLottie',
+                   container: "#lottieGuide",
+                   actions: [
+                   {
+                       visibility: [0, 1],
+                       type: 'seek',
+                       frames: [0, 100],
+                   },
+                   ],
+               });
+   
+           </script>
+       </div>
+       <div style="height:200vh; background-color:wheat" id="lottieBottom"></div>
+    </body>
+</html>

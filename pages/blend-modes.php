@@ -68,9 +68,9 @@ rgb(0,255,255);
 
 
         <div class="test-box test-box-3">
-            <iframe src="<?=BASE_URL?>/pages/iframe-blend-modes.html" width="100%" height="100%"></iframe>
+            <iframe src="<?=BASE_URL?>/pages/iframes/blend-modes/1.html" width="100%" height="100%"></iframe>
         </div>
-        <p><a href="<?=BASE_URL?>/pages/iframe-blend-modes.html" target="_blank">Open example in a new page</a></p>
+        <p><a href="<?=BASE_URL?>/pages/iframes/blend-modes/1.html" target="_blank">Open example in a new page</a></p>
         <p>Saddly this effect works well with <code>--color: tomate;</code>, but not with other colour.<br/>
         It works also with <code>background: wheat;</code>, but not with <code>background: red;</code></p>
 
@@ -80,15 +80,15 @@ rgb(0,255,255);
 
 
         <div class="test-box test-box-4">
-            <iframe src="<?=BASE_URL?>/pages/iframe-blend-modes-2.html" width="100%" height="100%"></iframe>
+            <iframe src="<?=BASE_URL?>/pages/iframes/blend-modes/2.html" width="100%" height="100%"></iframe>
         </div>
-        <p><a href="<?=BASE_URL?>/pages/iframe-blend-modes-2.html" target="_blank">Open example in a new page</a></p>
+        <p><a href="<?=BASE_URL?>/pages/iframes/blend-modes/2.html" target="_blank">Open example in a new page</a></p>
         <p>&nbsp;</p>
         <p>Same effect using a SVG image</p>
         <div class="test-box test-box-4">
-            <iframe src="<?=BASE_URL?>/pages/iframe-blend-modes-3.html" width="100%" height="100%"></iframe>
+            <iframe src="<?=BASE_URL?>/pages/iframes/blend-modes/3.html" width="100%" height="100%"></iframe>
         </div>
-        <p><a href="<?=BASE_URL?>/pages/iframe-blend-modes-3.html" target="_blank">Open example in a new page</a></p>
+        <p><a href="<?=BASE_URL?>/pages/iframes/blend-modes/3.html" target="_blank">Open example in a new page</a></p>
         <p>The trick here is the <code>backgroud-fixed</code> property on the layers beneath the block. The idea is each layer has its own "logo", filled with the opposite colour as the background (white <-> yellow) and fixed exactly in the same position as the website main logo</p>
 <pre><code>.yellow-block {
     display: block;
