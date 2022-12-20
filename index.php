@@ -39,6 +39,14 @@ if(isset($_GET['page'])) {
                 <p>Using sticky position and scroll relative to container to get parallax effect on page scroll</p> 
             </li> 
             <li class="sl-l-grid__column"> 
+            <h2><a href="<?=BASE_URL?>?page=mail-signatures">Mail Signatures</a></h2> 
+                <p>Manual to create signatures in Outlook and other mail clients</p> 
+            </li> 
+            <li class="sl-l-grid__column"> 
+                <h2><span class="caps">CSS</span>&nbsp;Compatible</h2> 
+                <p>Sass is completely compatible with all versions of <span class="caps">CSS.</span> We take&nbsp;this compatibility seriously, so that you can seamlessly use any&nbsp;available <span class="caps">CSS</span>&nbsp;libraries.</p> 
+            </li> 
+            <li class="sl-l-grid__column"> 
                 <h2><span class="caps">CSS</span>&nbsp;Compatible</h2> 
                 <p>Sass is completely compatible with all versions of <span class="caps">CSS.</span> We take&nbsp;this compatibility seriously, so that you can seamlessly use any&nbsp;available <span class="caps">CSS</span>&nbsp;libraries.</p> 
             </li> 

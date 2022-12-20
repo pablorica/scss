@@ -73,11 +73,16 @@
         </div>
 
         <div class="read-more">
-            <h3>Read more:</h3>
+            <h3>Libraries:</h3>
             <p><a href="https://lottiefiles.com/" target="_blank">Lottie Files </a></p>
             <p><a href="https://github.com/LottieFiles" target="_blank">Lottie Files: github</a></p>
+            <p><a href="https://docs.lottiefiles.com/lottie-interactivity" target="_blank">Lottie Docs</a></p>
             <p><a href="https://stackoverflow.com/questions/69303726/lottie-animation-with-parrallax-effect-on-page-scroll" target="_blank">Lottie animation with parallax effect on page scroll</a></p>
             <hr>
+            <p><a href="https://www.fable.app/" target="_blank">Fable: Create and export animations</a></p>
+        </div>
+        <div class="read-more">
+            <h3>Read more:</h3>
             
             <p><a href="https://www.youtube.com/watch?v=bNT5CX6izAc" target="_blank">VIDEO ON SCROLL - Tutorial con Elementor, Lottie, Blender, After Effects y Bodymovin </a></p>
             <p><a href="https://stackoverflow.com/questions/70791333/scroll-and-let-content-stick-while-animating" target="_blank">Scroll and let content stick while animating </a></p>
