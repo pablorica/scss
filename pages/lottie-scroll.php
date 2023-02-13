@@ -68,6 +68,13 @@
 
 
         <div class="read-more">
+            <h3>Firefox issues</h3>
+            <p><a href="https://greensock.com/forums/topic/31548-svg-scrolltrigger-animation-glitching-on-firefox/" target="_blank">
+SVG Scrolltrigger animation glitching on Firefox </a></p>
+            <p><a href="https://greensock.com/forums/topic/28148-scrolltrigger-and-lottie-animation-flickering-problem/" target="_blank">ScrollTrigger and Lottie animation flickering problem </a></p>
+        </div>
+
+        <div class="read-more">
             <h3>Lottie Files: Interactivity</h3>
             <p><a href="https://lottiefiles.com/interactivity#second" target="_blank">Lottie scroll relative to container </a></p>
         </div>
