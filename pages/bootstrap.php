@@ -71,13 +71,16 @@
                 >Waypoints: Github</a>
             </li>
         </ul>
+        <ul style="margin-top:1em">
+            <li>
+                <a 
+                    href="https://github.com/pablorica/bootstrap-holding-page" 
+                    target="_blank"
+                ><b>Codigo Bootstrap Holding Page</b></a>
+            </li> 
+        </ul>
         
-        
-        
-
-
-
-        
+            
 
         <div class="read-more">
             <h3>Read more</h3>
