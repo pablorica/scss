@@ -35,6 +35,21 @@
 
         <h3>Lenis.js Example </h3>
         
+        
+        <pre><code>
+    const lenis = new Lenis({
+        duration: 1.2,
+            easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), // https://www.desmos.com/calculator/brs54l4xou, https://easings.net/
+            direction: 'vertical', // vertical, horizontal
+            gestureDirection: 'vertical', // vertical, horizontal, both
+            smooth: true,
+            mouseMultiplier: 1,
+            smoothTouch: false,
+            touchMultiplier: 2,                                                
+            infinite: false,
+    });
+        </code></pre>
+
         <div class="test-box test-box-3" style="height: 600px;">
             <iframe src="<?=BASE_URL?>/pages/iframes/textify/3.html" width="100%" height="100%"></iframe>
         </div>
