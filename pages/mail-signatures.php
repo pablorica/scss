@@ -18,6 +18,7 @@
         <p> The best way to create a HTML signature is building the element in a decent HTML editor, then copy the preview of the signature (copy the rendered HTML in the browser, not the code!)and paste it in a new signature in the Mail Client.
         <br> For instance, in Outlook that can be achieved in  Preferences -> Signature.</p>
 
+        <p>&nbsp;</p>
 
         <h3>LCA Mail signatures </h3>
         
@@ -26,6 +27,7 @@
         </div>
         <p><a href="<?=BASE_URL?>/pages/iframes/mail-signatures/LCA.php" target="_blank">Open example in a new page</a></p>
 
+        <p>&nbsp;</p>
 
         <h3>GRID Mail signatures </h3>
 
@@ -34,6 +36,19 @@
             <iframe src="<?=BASE_URL?>/pages/iframes/mail-signatures/GRID.php" width="100%" height="100%"></iframe>
         </div>
         <p><a href="<?=BASE_URL?>/pages/iframes/mail-signatures/GRID.php" target="_blank">Open example in a new page</a></p>
+
+        <p>&nbsp;</p>
+
+        <h3>SD-ENGINEERS Mail signatures </h3>
+        <p>The problem is that we can't perfectly align the logo on the left with the content on the right, because each mail client displays the text with different paddings, so the content will have different heights with different clients. However, I think I have found a solution that can fit quite well for all of them.</p>
+
+
+        <div class="test-box test-box-2">
+            <iframe src="<?=BASE_URL?>/pages/iframes/mail-signatures/SDENGINEERS.php" width="100%" height="100%"></iframe>
+        </div>
+        <p><a href="<?=BASE_URL?>/pages/iframes/mail-signatures/SDENGINEERS.php" target="_blank">Open example in a new page</a></p>
+        <p>This tempalte was uploaded to the client <a href="https://sd-engineers.com/emailtemplate/" target="_blank">server</a></p>
+       
 
 
 

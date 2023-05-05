@@ -114,4 +114,102 @@ $key = 'lcannell';
 if(isset($_GET['k'])) {
 	$key = $_GET['k'];
 }
-?><table style="font-size: 9pt;line-height: 13px;font-family: Arial, sans-serif;background-color: rgb(255, 255, 255);box-sizing: border-box;border-spacing: 0px;border-collapse: collapse;width: 100%;" cellpadding="0" cellspacing="0"><tbody style="box-sizing: border-box"><tr style="box-sizing: border-box"><td colspan="2" style="box-sizing: border-box; width: 100%; border-top: 1px solid rgb(0, 0, 0)">&nbsp;</td></tr><tr style="box-sizing: border-box"><td style="box-sizing: border-box;width: 100%;color: rgb(0,0,0);vertical-align: middle;"><table style="box-sizing: border-box; border-collapse: collapse" cellpadding="0" cellspacing="0"><tbody style="box-sizing: border-box"><tr style="box-sizing: border-box"><td style="box-sizing: border-box"><span style="margin: 0px; font-weight: bold; font-size: 9pt;line-height: 13px; color: rgb(0, 0, 0); box-sizing: border-box"><?=$name[$key]?></span></td></tr><tr style="box-sizing: border-box"><td style="box-sizing: border-box"><span style="margin: 0px; font-size: 9pt;line-height: 13px; color: rgb(0, 0, 0); box-sizing: border-box"><?=$role[$key]?></span></td></tr><tr style="box-sizing: border-box; border-spacing: 0px; padding: 0px 0px 0px 0px"><td style="box-sizing: border-box; border-spacing: 0px; padding: 0px 0px 0px 0px"><span style="margin: 0px; box-sizing: border-box; border-spacing: 0px;"><img width=156 height=15 src="<?=$spacer?>" style="margin: 0px; vertical-align: top; box-sizing: border-box; height: 15px; width: 156px; display:block"></span></td></tr><tr style="box-sizing: border-box"><td style="box-sizing: border-box"><a style="text-decoration:none !important; text-decoration:none; margin: 0px; box-sizing: border-box; color: rgb(0, 0, 0); font-size: 9pt; line-height: 13px; " href="tel:<?php echo str_replace("&nbsp;", '',$phone1[$key]);?>"><span style="margin: 0px; font-size: 9pt; line-height: 13px; color: rgb(0, 0, 0); box-sizing: border-box; text-decoration: none"><?=$phone1[$key]?></span></a></td></tr><tr style="box-sizing: border-box"><td style="box-sizing: border-box"><a style="text-decoration:none !important; text-decoration:none; margin: 0px; box-sizing: border-box; color: rgb(0, 0, 0); font-size: 9pt; line-height: 13px; " href="tel:<?php echo str_replace("&nbsp;", '',$phone2[$key]);?>"><span style="margin: 0px; font-size: 9pt; line-height: 13px; color: rgb(0, 0, 0); box-sizing: border-box; text-decoration: none;"><?=$phone2[$key]?></span></a>  </td></tr><tr style="box-sizing: border-box; border-spacing: 0px; padding: 0px 0px 0px 0px"><td style="box-sizing: border-box; border-spacing: 0px; padding: 0px 0px 0px 0px"><span style="margin: 0px; box-sizing: border-box; border-spacing: 0px;"><img width=156 height=15 src="<?=$spacer?>" style="margin: 0px; vertical-align: top; box-sizing: border-box; height: 15px; width: 156px; display:block"></span></td></tr><tr style="box-sizing: border-box"><td style="box-sizing: border-box; padding: 0px 0px 0px 0px"><span style="margin: 0px; box-sizing: border-box; display: inline-block; height: 20px"><span style="margin: 0px; box-sizing: border-box"><a href="<?=$linkedin[$key]?>" target="_blank" style="text-decoration:none;text-underline:none; margin: 0px; box-sizing: border-box; color: rgb(0, 0, 0)"><img border=0 width=20 height=20 src="<?=$icon_linkedin[$key]?>" alt="LinkedIn" style="margin: 0px; vertical-align: top; box-sizing: border-box; height: 20px; width: 20px"></a>&nbsp;</span><span style="margin: 0px; box-sizing: border-box"><a href="<?=$facebook[$key]?>" target="_blank" style="text-decoration:none;text-underline:none; margin: 0px; box-sizing: border-box; color: rgb(0, 0, 0)"><img border=0 width=20 height=20 src="<?=$icon_facebook[$key]?>" style="margin: 0px; vertical-align: top; box-sizing: border-box; height: 20px; width: 20px" alt="Facebook"></a>&nbsp;</span><span style="margin: 0px; box-sizing: border-box"><a href="<?=$twitter?>" target="_blank" style="text-decoration:none;text-underline:none; margin: 0px; box-sizing: border-box; color: rgb(0, 0, 0)"><img border=0 width=20 height=20 src="<?=$icon_twitter[$key]?>" alt="Twitter" style="margin: 0px; vertical-align: top; box-sizing: border-box; height: 20px; width: 20px"></a>&nbsp;</span><span style="margin: 0px; box-sizing: border-box"><a href="<?=$instagram?>" target="_blank" style="text-decoration:none;text-underline:none; margin: 0px; box-sizing: border-box; color: rgb(0, 0, 0)"><img border=0 width=20 height=20 src="<?=$icon_instagram[$key]?>" alt="Instagram" style="margin: 0px; vertical-align: top; box-sizing: border-box; height: 20px; width: 20px"></a>&nbsp;</span></span></td></tr></tbody></table></td><td style="box-sizing: border-box;width: <?=$logo_width?>px;vertical-align: top;padding: 0;"><a href="https://www.lcajobs.com/" target="_blank" style="text-decoration: none;text-underline: none; margin: 0px; box-sizing: border-box; color: rgb(0, 0, 0)"><img alt="LCA Jobs" border=0 width=<?=$logo_width?> height=<?=$logo_height?> src="<?=$logo[$key]?>" style='margin: 0px; vertical-align: top; box-sizing: border-box;width:<?=$logo_width?>px;height:<?=$logo_height?>px'></a></td></tr><tr style="box-sizing: border-box"><td colspan="2" style="box-sizing: border-box; padding: 2px 0px 0px; width: 100%;">&nbsp;</td></tr></tbody></table>
+?><table style="font-size: 9pt;line-height: 13px;font-family: Arial, sans-serif;background-color: rgb(255, 255, 255);box-sizing: border-box;border-spacing: 0px;border-collapse: collapse;width: 100%;" cellpadding="0" cellspacing="0">
+<tbody style="box-sizing: border-box">
+  <tr style="box-sizing: border-box">
+    <td colspan="2" style="box-sizing: border-box; width: 100%; border-top: 1px solid rgb(0, 0, 0)">&nbsp;</td>
+  </tr>
+  <tr style="box-sizing: border-box">
+    <td style="box-sizing: border-box;width: 100%;color: rgb(0,0,0);vertical-align: middle;">
+      <table style="box-sizing: border-box; border-collapse: collapse" cellpadding="0" cellspacing="0">
+        <tbody style="box-sizing: border-box">
+          <tr style="box-sizing: border-box">
+            <td style="box-sizing: border-box">
+              <span style="margin: 0px; font-weight: bold; font-size: 9pt;line-height: 13px; color: rgb(0, 0, 0); box-sizing: border-box"> <?=$name[$key]?> </span>
+            </td>
+          </tr>
+          <tr style="box-sizing: border-box">
+            <td style="box-sizing: border-box">
+              <span style="margin: 0px; font-size: 9pt;line-height: 13px; color: rgb(0, 0, 0); box-sizing: border-box"> <?=$role[$key]?> </span>
+            </td>
+          </tr>
+          <tr style="box-sizing: border-box; border-spacing: 0px; padding: 0px 0px 0px 0px">
+            <td style="box-sizing: border-box; border-spacing: 0px; padding: 0px 0px 0px 0px">
+              <span style="margin: 0px; box-sizing: border-box; border-spacing: 0px;">
+                <img width=156 height=15 src="
+                                      <?=$spacer?>" style="margin: 0px; vertical-align: top; box-sizing: border-box; height: 15px; width: 156px; display:block">
+              </span>
+            </td>
+          </tr>
+          <tr style="box-sizing: border-box">
+            <td style="box-sizing: border-box">
+              <a style="text-decoration:none !important; text-decoration:none; margin: 0px; box-sizing: border-box; color: rgb(0, 0, 0); font-size: 9pt; line-height: 13px; " href="tel:
+                                      <?php echo str_replace("&nbsp;", '',$phone1[$key]);?>">
+                <span style="margin: 0px; font-size: 9pt; line-height: 13px; color: rgb(0, 0, 0); box-sizing: border-box; text-decoration: none"> <?=$phone1[$key]?> </span>
+              </a>
+            </td>
+          </tr>
+          <tr style="box-sizing: border-box">
+            <td style="box-sizing: border-box">
+              <a style="text-decoration:none !important; text-decoration:none; margin: 0px; box-sizing: border-box; color: rgb(0, 0, 0); font-size: 9pt; line-height: 13px; " href="tel:
+                                      <?php echo str_replace("&nbsp;", '',$phone2[$key]);?>">
+                <span style="margin: 0px; font-size: 9pt; line-height: 13px; color: rgb(0, 0, 0); box-sizing: border-box; text-decoration: none;"> <?=$phone2[$key]?> </span>
+              </a>
+            </td>
+          </tr>
+          <tr style="box-sizing: border-box; border-spacing: 0px; padding: 0px 0px 0px 0px">
+            <td style="box-sizing: border-box; border-spacing: 0px; padding: 0px 0px 0px 0px">
+              <span style="margin: 0px; box-sizing: border-box; border-spacing: 0px;">
+                <img width=156 height=15 src="
+                                          <?=$spacer?>" style="margin: 0px; vertical-align: top; box-sizing: border-box; height: 15px; width: 156px; display:block">
+              </span>
+            </td>
+          </tr>
+          <tr style="box-sizing: border-box">
+            <td style="box-sizing: border-box; padding: 0px 0px 0px 0px">
+              <span style="margin: 0px; box-sizing: border-box; display: inline-block; height: 20px">
+                <span style="margin: 0px; box-sizing: border-box">
+                  <a href="
+                                                  <?=$linkedin[$key]?>" target="_blank" style="text-decoration:none;text-underline:none; margin: 0px; box-sizing: border-box; color: rgb(0, 0, 0)">
+                    <img border=0 width=20 height=20 src="
+                                                      <?=$icon_linkedin[$key]?>" alt="LinkedIn" style="margin: 0px; vertical-align: top; box-sizing: border-box; height: 20px; width: 20px">
+                  </a>&nbsp; </span>
+                <span style="margin: 0px; box-sizing: border-box">
+                  <a href="
+                                                      <?=$facebook[$key]?>" target="_blank" style="text-decoration:none;text-underline:none; margin: 0px; box-sizing: border-box; color: rgb(0, 0, 0)">
+                    <img border=0 width=20 height=20 src="
+                                                          <?=$icon_facebook[$key]?>" style="margin: 0px; vertical-align: top; box-sizing: border-box; height: 20px; width: 20px" alt="Facebook">
+                  </a>&nbsp; </span>
+                <span style="margin: 0px; box-sizing: border-box">
+                  <a href="
+                                                          <?=$twitter?>" target="_blank" style="text-decoration:none;text-underline:none; margin: 0px; box-sizing: border-box; color: rgb(0, 0, 0)">
+                    <img border=0 width=20 height=20 src="
+                                                              <?=$icon_twitter[$key]?>" alt="Twitter" style="margin: 0px; vertical-align: top; box-sizing: border-box; height: 20px; width: 20px">
+                  </a>&nbsp; </span>
+                <span style="margin: 0px; box-sizing: border-box">
+                  <a href="
+                                                              <?=$instagram?>" target="_blank" style="text-decoration:none;text-underline:none; margin: 0px; box-sizing: border-box; color: rgb(0, 0, 0)">
+                    <img border=0 width=20 height=20 src="
+                                                                  <?=$icon_instagram[$key]?>" alt="Instagram" style="margin: 0px; vertical-align: top; box-sizing: border-box; height: 20px; width: 20px">
+                  </a>&nbsp; </span>
+              </span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </td>
+    <td style="box-sizing: border-box;width: 
+                                      <?=$logo_width?>px;vertical-align: top;padding: 0;">
+      <a href="https://www.lcajobs.com/" target="_blank" style="text-decoration: none;text-underline: none; margin: 0px; box-sizing: border-box; color: rgb(0, 0, 0)">
+        <img alt="LCA Jobs" border=0 width=<?=$logo_width?> height=<?=$logo_height?> src="
+                                              <?=$logo[$key]?>" style='margin: 0px; vertical-align: top; box-sizing: border-box;width:
+                                              <?=$logo_width?>px;height:
+                                              <?=$logo_height?>px'>
+      </a>
+    </td>
+  </tr>
+  <tr style="box-sizing: border-box">
+    <td colspan="2" style="box-sizing: border-box; padding: 2px 0px 0px; width: 100%;">&nbsp;</td>
+  </tr>
+</tbody>
+</table>
