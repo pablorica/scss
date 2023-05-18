@@ -47,7 +47,37 @@
             <iframe src="<?=BASE_URL?>/pages/iframes/mail-signatures/SDENGINEERS.php" width="100%" height="100%"></iframe>
         </div>
         <p><a href="<?=BASE_URL?>/pages/iframes/mail-signatures/SDENGINEERS.php" target="_blank">Open example in a new page</a></p>
-        <p>This tempalte was uploaded to the client <a href="https://sd-engineers.com/emailtemplate/" target="_blank">server</a></p>
+        <p>This template was uploaded to the client <a href="https://sd-engineers.com/emailtemplate/" target="_blank">server</a></p>
+        <p>This is how it looks in different mail clients:</a></p>
+        <table>
+            <tr>
+                <td style="width:33%">
+                    <p>Gmail Web</a></p>
+                    <img src="<?=BASE_URL?>public/img/gmail-web.png" style="width:60%;height:auto"></iframe>
+                </td>
+                <td style="width:33%">
+                    <p>Gmail App Android</a></p>
+                    <img src="<?=BASE_URL?>public/img/gmail-app-android.png" style="width:60%;height:auto"></iframe>
+                </td>
+                <td style="width:34%">
+                    <p>Apple Mail</a></p>
+                    <img src="<?=BASE_URL?>public/img/apple-mail.png" style="width:60%;height:auto"></iframe>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Outlook</a></p>
+                    <img src="<?=BASE_URL?>public/img/outlook.png" style="width:60%;height:auto"></iframe>
+                </td>
+                <td>
+                    <p>Outlook web</a></p>
+                    <img src="<?=BASE_URL?>public/img/outlook_web.png" style="width:60%;height:auto"></iframe>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+            </tr>
+        </table>
        
 
 
