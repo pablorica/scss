@@ -55,8 +55,8 @@ if(isset($_GET['page'])) {
                 <p>Bootstrap burger menu fliping to a cross.</p> 
             </li> 
             <li class="sl-l-grid__column"> 
-                <h2><span class="caps">CSS</span>&nbsp;Compatible</h2> 
-                <p>Sass is completely compatible with all versions of <span class="caps">CSS.</span> We take&nbsp;this compatibility seriously, so that you can seamlessly use any&nbsp;available <span class="caps">CSS</span>&nbsp;libraries.</p> 
+                <h2><a href="<?=BASE_URL?>?page=grid">CSS GRID</a></h2> 
+                <p>CSS Grid Layout (aka “Grid” or “CSS Grid”), is a two-dimensional grid-based layout system that, compared to any web layout system of the past, completely changes the way we design user interfaces.</p> 
             </li> 
             <li class="sl-l-grid__column"> 
                 <h2><span class="caps">CSS</span>&nbsp;Compatible</h2> 
