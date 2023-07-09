@@ -18,6 +18,14 @@
         <link rel="icon" type="image/png" sizes="16x16" href="<?=BASE_URL?>/favicon-16x16.png">
         <link rel="manifest" href="<?=BASE_URL?>/site.webmanifest">
 
+        <!-- highlight.js -->
+        <link 
+            rel="stylesheet"
+            href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/dark.min.css"
+        >
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+
     </head>
     <body>
 
