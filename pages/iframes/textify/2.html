@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textify.js - Demo 2</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/textify.js@2.4.3/dist/Textify.min.css">
+    <style>
+        @font-face {
+            font-family: "halyard-micro";
+            src: url("https://use.typekit.net/af/06848d/00000000000000007735adc4/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+                format("woff2"),
+                url("https://use.typekit.net/af/06848d/00000000000000007735adc4/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+                format("woff"),
+                url("https://use.typekit.net/af/06848d/00000000000000007735adc4/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+                format("opentype");
+            font-display: auto;
+            font-style: normal;
+            font-weight: 100;
+            font-stretch: normal;
+        }
+        @font-face {
+            font-family: "widescreen-ex";
+            src: url("https://use.typekit.net/af/1e7715/00000000000000007735fb62/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3")
+                format("woff2"),
+                url("https://use.typekit.net/af/1e7715/00000000000000007735fb62/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3")
+                format("woff"),
+                url("https://use.typekit.net/af/1e7715/00000000000000007735fb62/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3")
+                format("opentype");
+            font-display: auto;
+            font-style: normal;
+            font-weight: 900;
+            font-stretch: normal;
+        }
+        .tk-widescreen-ex {
+            font-family: "widescreen-ex", sans-serif;
+        }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html,
+    body {
+        min-height: 100%;
+        height: auto;
+    }
+
+    html {
+        scroll-behavior: initial;
+        font-size: calc(100vw / 1920 * 10);
+    }
+    body {
+        font-family: "halyard-micro", sans-serif;
+        overflow-x: hidden;
+        background: #000000;
+        color: #ffffff;
+    }
+    h1.text-title .word .char {
+    font-size: 15rem;
+    line-height: 1;
+    }
+    p.paragraph {
+    font-size: 2rem;
+    width: 50%;
+    }
+    .container {
+    max-width: 90%;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    }
+    .spacer {
+        width: 100%;
+        height: 100vh;
+    }
+    .text-box {
+        padding: 20rem 0;
+    }
+    .text-container p {
+        margin-top: 4rem;
+    }
+    </style>
+</head>
+
+<body>
+
+    <div class="spacer"> </div>
+    <div class="text-box" >
+        <div class="container text-container" style="background-color:transparent; height:1px; position:sticky; top:0">
+            <h1 class="text-title tk-widescreen-ex title-1">
+                TEXT
+            </h1>
+            <h1 class="text-title tk-widescreen-ex title-1">
+                ANIMATION
+            </h1>
+            <p class="paragraph p-1">
+                lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nihil eius incidunt consectetur
+                provident, dolorum magnam vel libero enim recusandae labore aperiam distinctio voluptates repellendus
+                dolorem architecto quas doloremque alias!
+            </p>
+        </div>
+        <div class="spacer"> </div>
+    </div>
+    <div style="height:200vh; background-color:grey" id="textifyBottom"></div>
+
+
+
+    <!-- textify js -->
+    <script src="https://cdn.jsdelivr.net/npm/textify.js/dist/Textify.min.js"></script>
+    <!-- app -->
+    <script>
+        // text animation-1
+        new TextifyTitle({
+            selector: ".title-bak",
+            duration: 800,
+            stagger: 50,
+            once: false,
+            threshold: 0,
+            rotation: 10
+        });
+
+        new TextifyTitle({
+            selector: ".title-1",
+            duration: 1000,
+            stagger: 200,
+            fade: true,
+            once: false,
+            rotation: "15",
+            scale: "5",
+            easing: "easeIn",
+            fadeEasing: "sharp"
+        });
+
+
+
+        new Textify({
+            selector: ".p-1",
+            duration: 1000,
+            once: false
+        });
+
+
+    </script>
+
+</body>
+
+</html>
