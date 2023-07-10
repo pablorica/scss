@@ -2,6 +2,8 @@
 
 All Notable changes to `scss boilerplate` will be documented in this file
 
+## 1.5.1
+- Added  [LottieFiles](https://github.com/LottieFiles)
 
 ## 1.5.0
 - Mixed with [html5_CSS_JS_JQuery](https://github.com/yogeshswdev/html5_CSS_JavaScript_JQuery_start)
