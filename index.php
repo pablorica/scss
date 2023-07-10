@@ -15,8 +15,8 @@
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt 
 */
 
-define('VERSION','1.5.2.3');
-define('BASE_URL','http://localhost/tutorials/scss/');
+define('VERSION','1.6.5');
+define('BASE_URL','http://localhost/tutorials/vue/');
 define('STYLESHEET',BASE_URL.'public/css/style.css?v='.VERSION);
 define('JSSCRIPT',BASE_URL.'public/js/main.js?v='.VERSION);
 
@@ -28,35 +28,18 @@ if(isset($_GET['page'])) {
 } else {
 ?>
     <section id = "main">
+
+    <h2>Chapter 1: Vue.js Essentials</h2> 
+    <hr/>
         
         <ul class="sl-l-grid"> 
             <li class="sl-l-grid__column"> 
-                <h2><a href="<?=BASE_URL?>?page=blend-modes">Change Text or Fill Color Based on Background Color Automatically in CSS</a></h2> 
-                <p>Blend modes are commonly used in design tools such as Photoshop to create a compositional effect by mixing colors from two or more layers. By changing how colors mix, you can achieve really interesting visual effects.</p> 
+                <h2><a href="<?=BASE_URL?>?page=vue-spa">Vue SPA's</a></h2> 
+                <p>In this section we will introduce how to scaffold a Vue Single Page Application on your local machine. The created project will be using a build setup based on Vite and allow us to use Vue Single-File Components.</p> 
             </li> 
             <li class="sl-l-grid__column"> 
-                <h2><a href="<?=BASE_URL?>?page=lottie-scroll">Lottie animation with parallax effect on page scroll</a></h2> 
-                <p>Using sticky position and scroll relative to container to get parallax effect on page scroll</p> 
-            </li> 
-            <li class="sl-l-grid__column"> 
-            <h2><a href="<?=BASE_URL?>?page=mail-signatures">Mail Signatures</a></h2> 
-                <p>Manual to create signatures in Outlook and other mail clients</p> 
-            </li> 
-            <li class="sl-l-grid__column"> 
-                <h2><a href="<?=BASE_URL?>?page=textifyjs">Lenis.js & Textify.js</a></h2> 
-                <p>Simple scroll based text reveal animation library.</p>
-            </li> 
-            <li class="sl-l-grid__column"> 
-                <h2><a href="<?=BASE_URL?>?page=bootstrap">Bootstrap Examples</a></h2> 
-                <p>Quickly get a project started with any of Bootatrap 5 examples ranging from using parts of the framework to custom components and layouts.</p> 
-            </li> 
-            <li class="sl-l-grid__column"> 
-                <h2><a href="<?=BASE_URL?>?page=burger">Burger toggler animations</a></h2> 
-                <p>Bootstrap burger menu fliping to a cross.</p> 
-            </li> 
-            <li class="sl-l-grid__column"> 
-                <h2><a href="<?=BASE_URL?>?page=grid">CSS GRID</a></h2> 
-                <p>CSS Grid Layout (aka “Grid” or “CSS Grid”), is a two-dimensional grid-based layout system that, compared to any web layout system of the past, completely changes the way we design user interfaces.</p> 
+                <h2><a href="<?=BASE_URL?>?page=vue-cdn">From a CDN</a></h2> 
+                <p>You can use Vue directly from a CDN via a script tag</p> 
             </li> 
             <li class="sl-l-grid__column"> 
                 <h2><span class="caps">CSS</span>&nbsp;Compatible</h2> 
